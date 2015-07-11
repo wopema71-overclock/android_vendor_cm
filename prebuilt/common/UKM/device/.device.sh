@@ -22,9 +22,9 @@ case $DEVICE in
 	g2|galbi|ls980|vs980|d80?|g3)
 		CONFIG="g2";; #g2|galbi|ls980|vs980|d80x = LG G2, g3 = LG G3
 #Unofficial
-	gee*|v500|*m7*|odin|yuga|C650?|C660?|ghost*|xt105?|xt1060|obake*|xt1080*)
+	gee*|v500|*m7*|odin|yuga|C650?|C660?|ghost*|xt105?|xt1060|obake*|xt1080*|melius*)
 		CONFIG="mako";; #gee* = LG Optimus G, v500 = LG G Pad 8.3, *m7* = HTC One M7, odin|C650x = Sony Xperia ZL, yuga|C660x = Sony Xperia Z
-			#ghost*|xt105x|xt1060 = Moto X 2013, obake*|xt1080* = Motorola Droid Ultra
+			#ghost*|xt105x|xt1060 = Moto X 2013, obake*|xt1080* = Motorola Droid Ultra, melius* = Samsung Galaxy Mega 6.3
 	*m8*|shamu)
 		CONFIG="hammerhead";; #*m8* = HTC One M8, shamu = Nexus 6
 	grouper|tilapia)
