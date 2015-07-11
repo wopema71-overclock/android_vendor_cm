@@ -339,6 +339,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.build.version.plat.sdk=$(CM_PLATFORM_SDK_VERSION)
 
+-include vendor/cm/config/common_ukm.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 
 -include vendor/cyngn/product.mk
