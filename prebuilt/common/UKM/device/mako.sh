@@ -190,7 +190,7 @@ case "$1" in
 		$BB echo "Core 0: $CPU0@nCore 1: $CPU1@nCore 2: $CPU2@nCore 3: $CPU3";
 	;;
 	LiveCPUTemperature)
-		CPU_C=`$BB cat /sys/class/thermal/thermal_zone7/temp`;
+		CPU_C=`$BB cat /sys/class/thermal/thermal_zone0/temp`;
 		CPU_F=`$BB awk "BEGIN { print ( ($CPU_C * 1.8) + 32 ) }"`;
 
 		$BB echo "$CPU_C°C | $CPU_F°F";
